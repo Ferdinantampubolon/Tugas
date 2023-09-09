@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <p class="navbar-brand me-auto" href="#"><img src="image/OLX.png" alt="" height="60px" width="60px">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <div class="col-12 ">
+                            <div class="input-group ">
+                                <input type="text" class="form-control"
+                                    placeholder="Temukan Mobil, Handphone, dan Lainnya..."
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                        class="bi bi-search"></i></button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <ul class="navbar-nav ">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-dark" href="#">Login/Daftar</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-dark" href="#">+Jual</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart"></i>Keranjang</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--navigasi-->
+    <div class="container-fluid py-2 navigasi">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown"
+                data-bs-display="static" aria-expanded="false">
+                SEMUA KATEGORI
+            </button>
+            <ul class="dropdown-menu">
+                <li><button class="dropdown-item" type="button"><b>Mobil</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Properti</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Motor</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Elektronik & Gadget</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Hoby & Olahraga</b></button></li> 
+                <li><button class="dropdown-item" type="button"><b>Rumah Tangga</b></button></li> 
+                <li><button class="dropdown-item" type="button"><b>Keperluan Pribadi</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Perlengkapan Bayi & Anak</b></button></li>
+                <li><button class="dropdown-item" type="button"><b>Kantor & Industri</b></button></li>
+            </ul>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Mobil Bekas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Motor Bekas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Properti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Handphone</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jasa & Lowongan Kerja</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TV & Audio, Video</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <!--banner-->
+    <div class="container-fluid banner"></div>
+
+
+    <!--promo-->
+    <div class="container-fluid py-3">
+        <div class="container"></div>
+        <h3 class="text-center">Rekomendasi Baru</h3>
+        <div class="row mt-3 justify-content-center">
+            <div class="col-sm-6 col-lg-2 hovered-card mb-3">
+                <div class="card">
+                    <img src="image/mobil.png" class="card-img-top" alt="..." height="140px">
+                    <div class="card-body">
+                        <h5 class="card-title">Rp 200.000.000</h5>
+                        <p class="card-text">2020</p>
+                        <p class="card-text">[Baru]Toyota Rush GM/T<br>
+                            Medan,Sumatera Utara <br>22 JUNI 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 hovered-card mb-3">
+                <div class="card">
+                    <img src="image/rumah.png" class="card-img-top" alt="..." height="140px">
+                    <div class="card-body">
+                        <h5 class="card-title">Rp 1.300.000.000</h5>
+                        <p class="card-text">3 KT - 2 KM - 70 m2</p>
+                        <p class="card-text">Rumah dijual di perum Bahari<br>
+                            Medan,Sumatera Utara <br>HARI INI</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 hovered-card mb-3">
+                <div class="card">
+                    <img src="image/motor.png" class="card-img-top" alt="..." height="140px">
+                    <div class="card-body">
+                        <h5 class="card-title">RP 60.000.000</h5>
+                        <p class="card-text">2022</p>
+                        <p class="card-text">[Motor Baru]Honda CBR150<br>
+                            Medan,Sumatera Utara <br>16 Juli 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 hovered-card mb-3">
+                <div class="card">
+                    <img src="image/AC.png" class="card-img-top" alt="..." height="140px">
+                    <div class="card-body">
+                        <h5 class="card-title">Rp 1.500.000</h5>
+                        <p class="card-text">Baru/bekas</p>
+                        <p class="card-text">Jual dan beli AC segala merek<br>
+                            Medan,Sumatera Utara<br> 4 HARI YANG LALU</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center py-3">
+        <button type="button" class="btn btn-outline-secondary btn-md text-dark">Muat lainnya</button>
+    </div>
+
+    <!--bannerfooter-->
+    <div class="container-fluid banner-footer"></div>
+
+
+    <!--footer-->
+    <div class="container-fluid py-5 footer ">
+
+        <div class="row mt-3 justify-content-center">
+            <div class="col-lg-2">
+                <div>
+                    <h5><b>KATEGORI POPULER</b></h5>
+                    Mobil Bekas <br>
+                    Rumah dan Apartemen <br>
+                    Motor Bekas <br>
+                    Handphone
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5><b>PENCARIAN POPULER</b></h5>
+                    Tablet <br>
+                    Fashion Wanita <br>
+                    Fashion pria <br>
+                    Furniture
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5><b>OLX INDONESIA</b></h5>
+                    OLX Karir <br>
+                    OLX News <br>
+                    Jual Mobil Instan
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5><b>OLX</b></h5>
+                    Tentang OLX Group <br>
+                    Pusat Bantuan <br>
+                    Peta Situs <br>
+                    kebijakan Privasi <br>
+                    Tips Aman <br>
+                    OLX Autos <br>
+                    Program Pengungkapan Kerentanan <br>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div>
+                    <h5><b>IKUTI KAMI</b></h5>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
